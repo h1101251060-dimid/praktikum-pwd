@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Muhammad Dimas Aditya, mahasiswa Sistem Informasi">
+  <title>Portofolio | Muhammad Dimas Aditya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="progress-bar" aria-hidden="true"></div>
+
+  <!-- ========== 1. NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="kontainer">
+      <a href="#hero" class="brand">Muhammad<span> Dimas </span>Aditya</a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link">Beranda</a></li>
+        <li><a href="#tentang" class="nav-link">Tentang</a></li>
+        <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
+        <li><a href="#portofolio" class="nav-link">Portofolio</a></li>
+        <li><a href="#tim" class="nav-link">Tim</a></li>
+        <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#kontak" class="nav-link">Kontak</a></li>
+      </ul>
+
+      <div class="nav-aksi">
+        <button id="dark-mode-toggle" aria-label="Ganti mode gelap">🌙</button>
+        <button id="hamburger" aria-label="Buka menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== 2. HERO ========== -->
+    <section id="hero" class="hero">
+      <div class="kontainer hero-isi">
+        <div class="hero-teks">
+          <p class="hero-sapaan">Halo, perkenalkan saya</p>
+          <h1><span class="sorot">Muhammad Dimas Aditya</span></h1>
+          <p class="hero-deskripsi">
+            Mahasiswa Sistem Informasi yang senang mengikuti lomba dan mengerjakan projek bersama
+          </p>
+          <div class="hero-tombol">
+            <a href="#portofolio" class="tombol">Lihat Portofolio</a>
+            <a href="#kontak" class="tombol tombol-outline">Hubungi Saya</a>
+          </div>
+        </div>
+        <img
+          class="hero-avatar"
+          src="images/foto-saya.jpg"
+          alt="Foto profil Muhammad Dimas Aditya"
+          width="120"
+          height="120">
+      </div>
+    </section>
+
+    <!-- ========== 3. TENTANG SAYA ========== -->
+    <section id="tentang" class="bagian bagian-alt">
+      <div class="kontainer">
+        <h2 class="judul-bagian">Tentang Saya</h2>
+
+        <div class="tentang-isi">
+          <div class="tentang-teks">
+            <p>
+              Saya Muhammad Dimas Aditya, mahasiswa semester 3 program studi Sistem Informasi.
+              Saya tertarik pada perlombaan business plan dan inovasi.
+            </p>
+            <p>
+              Saat ini saya sedang belajar membuat website yang rapi di layar
+              komputer maupun ponsel. Saya juga suka berdiskusi dan mengerjakan
+              proyek bersama.
+            </p>
+          </div>
+
+          <div class="statistik">
+            <div class="statistik-item">
+              <div class="statistik-angka"><span class="counter" data-target="12">0</span>+</div>
+              <p>Proyek Selesai</p>
+            </div>
+            <div class="statistik-item">
+              <div class="statistik-angka"><span class="counter" data-target="5">0</span></div>
+              <p>Sertifikat</p>
+            </div>
+            <div class="statistik-item">
+              <div class="statistik-angka"><span class="counter" data-target="3">0</span></div>
+              <p>Tahun Belajar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4. KEAHLIAN ========== -->
+    <section id="keahlian" class="bagian">
+      <div class="kontainer">
+        <h2 class="judul-bagian">Keahlian</h2>
+        <p class="sub-judul">Hal-hal yang sedang saya pelajari dan kuasai</p>
+
+        <div class="grid-4">
+          <article class="kartu">
+            <div class="ikon">💼</div>
+            <h3>Business Model Canvas</h3>
+            <p>Memetakan sembilan blok model bisnis menjadi rencana yang koheren dan mudah diuji.</p>
+          </article>
+          <article class="kartu">
+            <div class="ikon">🔍</div>
+            <h3>Riset & Analisis Pasar</h3>
+            <p>Mengukur ukuran pasar dan memahami kebutuhan pengguna lewat survei, wawancara, dan data sekunder.</p>
+          </article>
+          <article class="kartu">
+            <div class="ikon">💭</div>
+            <h3>Design Thinking</h3>
+            <p>Menerapkan tahap empati, definisi masalah, ideasi, prototipe, dan uji untuk menghasilkan solusi yang benar-benar dibutuhkan pengguna.</p>
+          </article>
+          <article class="kartu">
+            <div class="ikon">🧩</div>
+            <h3>Validasi Problem–Solution Fit</h3>
+            <p>Menguji hipotesis lewat wawancara pengguna, MVP, dan pengukuran umpan balik sebelum mengeluarkan banyak biaya</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 5. PORTOFOLIO ========== -->
+    <section id="portofolio" class="bagian bagian-alt">
+      <div class="kontainer">
+        <h2 class="judul-bagian">Portofolio</h2>
+        <p class="sub-judul">Beberapa hasil kerja saya. Klik kategori untuk menyaring.</p>
+
+        <div class="filter">
+          <button class="filter-btn filter-aktif" data-kategori="semua">Semua</button>
+          <button class="filter-btn" data-kategori="web">Web</button>
+          <button class="filter-btn" data-kategori="desain">Desain</button>
+          <button class="filter-btn" data-kategori="aplikasi">Aplikasi</button>
+        </div>
+
+        <div class="grid-3">
+          <article class="kartu portofolio-item" data-kategori="web">
+            <div class="portofolio-gambar warna-1">🌐</div>
+            <div class="portofolio-isi">
+              <span class="label-kategori">Web</span>
+              <h3>Company Profile Sediakala</h3>
+              <p>Website satu halaman dari tugas praktikum, lengkap dengan mode gelap.</p>
+            </div>
+          </article>
+
+          <article class="kartu portofolio-item" data-kategori="desain">
+            <div class="portofolio-gambar warna-2">🎨</div>
+            <div class="portofolio-isi">
+              <span class="label-kategori">Desain</span>
+              <h3>Logo Komunitas Kampus</h3>
+              <p>Logo sederhana untuk komunitas belajar di kampus.</p>
+            </div>
+          </article>
+
+          <article class="kartu portofolio-item" data-kategori="aplikasi">
+            <div class="portofolio-gambar warna-3">🧾</div>
+            <div class="portofolio-isi">
+              <span class="label-kategori">Aplikasi</span>
+              <h3>Aplikasi Kasir Sederhana</h3>
+              <p>Aplikasi pencatat penjualan memakai PHP dan MySQL untuk tugas basis data.</p>
+            </div>
+          </article>
+
+          <article class="kartu portofolio-item" data-kategori="desain">
+            <div class="portofolio-gambar warna-4">🖼️</div>
+            <div class="portofolio-isi">
+              <span class="label-kategori">Desain</span>
+              <h3>Poster Seminar Kampus</h3>
+              <p>Poster kegiatan seminar teknologi yang saya buat dengan Canva.</p>
+            </div>
+          </article>
+
+          <article class="kartu portofolio-item" data-kategori="web">
+            <div class="portofolio-gambar warna-2">🛍️</div>
+            <div class="portofolio-isi">
+              <span class="label-kategori">Web</span>
+              <h3>Landing Page UMKM</h3>
+              <p>Halaman promosi untuk usaha kecil milik tetangga, tampil rapi di ponsel.</p>
+            </div>
+          </article>
+
+          <article class="kartu portofolio-item" data-kategori="aplikasi">
+            <div class="portofolio-gambar warna-1">📝</div>
+            <div class="portofolio-isi">
+              <span class="label-kategori">Aplikasi</span>
+              <h3>Aplikasi Catatan Tugas</h3>
+              <p>Daftar tugas kuliah berbasis HTML dan JavaScript yang tersimpan di peramban.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 6. TIM ========== -->
+    <section id="tim" class="bagian">
+      <div class="kontainer">
+        <h2 class="judul-bagian">Tim Proyek</h2>
+        <p class="sub-judul">Teman-teman yang sering mengerjakan proyek bersama saya</p>
+
+        <div class="grid-4">
+          <article class="kartu tim-kartu">
+            <div class="tim-foto-wrap"><div class="tim-foto warna-1">AR</div></div>
+            <h3>Derriel Mulya Ramadhan</h3>
+            <p>Front-end</p>
+          </article>
+          <article class="kartu tim-kartu">
+            <div class="tim-foto-wrap"><div class="tim-foto warna-2">SN</div></div>
+            <h3>Aiffy Ragta Aqila</h3>
+            <p>Desain UI</p>
+          </article>
+          <article class="kartu tim-kartu">
+            <div class="tim-foto-wrap"><div class="tim-foto warna-3">BP</div></div>
+            <h3>Dimas Lutfhi Salim</h3>
+            <p>Basis Data</p>
+          </article>
+          <article class="kartu tim-kartu">
+            <div class="tim-foto-wrap"><div class="tim-foto warna-4">DW</div></div>
+            <h3>Sri Mulyani</h3>
+            <p>Dokumentasi</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 7. KATA MEREKA ========== -->
+    <section id="testimoni" class="bagian bagian-alt">
+      <div class="kontainer">
+        <h2 class="judul-bagian">Kata Mereka</h2>
+        <p class="sub-judul">Kesan dari orang yang pernah bekerja bersama saya</p>
+
+        <div class="slider">
+          <div class="slide slide-aktif">
+            <p class="kutipan">“Dimas rapi dalam mengerjakan bagiannya dan selalu tepat waktu.”</p>
+            <p class="penulis"><strong>Derriel Mulya Ramadhan</strong><br>Teman Satu Kelompok</p>
+          </div>
+          <div class="slide">
+            <p class="kutipan">“Landing page usaha saya jadi lebih menarik dan enak dilihat di HP.”</p>
+            <p class="penulis"><strong>Pak Yusuf</strong><br>Pemilik Usaha</p>
+          </div>
+          <div class="slide">
+            <p class="kutipan">“Mau diajak berdiskusi dan cepat belajar hal baru saat kegiatan organisasi.”</p>
+            <p class="penulis"><strong>Bang Ilham</strong><br>Ketua Komunitas Kampus</p>
+          </div>
+
+          <div class="slider-kontrol">
+            <button id="slide-prev" aria-label="Kata Mereka sebelumnya">‹</button>
+            <div id="slider-dots" class="slider-dots"></div>
+            <button id="slide-next" aria-label="Kata Mereka berikutnya">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 8. FAQ ========== -->
+    <section id="faq" class="bagian">
+      <div class="kontainer kontainer-sempit">
+        <h2 class="judul-bagian">Pertanyaan Umum</h2>
+        <p class="sub-judul">Mungkin pertanyaanmu sudah terjawab di sini</p>
+
+        <div class="faq-item">
+          <button class="faq-pertanyaan" aria-expanded="false">Sedang belajar apa sekarang?</button>
+          <div class="faq-jawaban"><p>Saya sedang memperdalam JavaScript dan belajar membuat aplikasi web dengan basis data.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pertanyaan" aria-expanded="false">Apakah menerima proyek kecil?</button>
+          <div class="faq-jawaban"><p>Bisa. Saya menerima proyek kecil seperti landing page atau desain poster di sela waktu kuliah.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pertanyaan" aria-expanded="false">Tools apa yang biasa dipakai?</button>
+          <div class="faq-jawaban"><p>VS Code, Google Chrome DevTools, Figma, Canva, dan Git untuk menyimpan riwayat perubahan kode.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pertanyaan" aria-expanded="false">Berapa lama membuat website sederhana?</button>
+          <div class="faq-jawaban"><p>Website satu halaman biasanya selesai dalam 3 sampai 7 hari, tergantung kelengkapan materi dan jumlah revisi.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-pertanyaan" aria-expanded="false">Bisakah diajak kerja sama dalam tim?</button>
+          <div class="faq-jawaban"><p>Tentu. Saya terbiasa membagi tugas dan berkomunikasi lewat grup, dan senang belajar dari anggota tim lain.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 9. KONTAK ========== -->
+    <section id="kontak" class="bagian bagian-alt">
+      <div class="kontainer">
+        <h2 class="judul-bagian">Hubungi Saya</h2>
+        <p class="sub-judul">Punya pertanyaan atau ingin berkolaborasi? Kirim pesan di sini.</p>
+
+        <div class="kontak-isi">
+          <div class="kontak-info">
+            <h3>Informasi Kontak</h3>
+            <p>📧 h1101241060@students.untan.ac.id</p>
+            <p>📱 0813-5060-1024</p>
+            <p>📍 Pontianak, Indonesia</p>
+            <p>🎓 Program Studi Sistem Informasi</p>
+          </div>
+
+          <form id="contact-form" class="kontak-form" novalidate>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" placeholder="Nama lengkap">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@contoh.com">
+
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" rows="5" placeholder="Tulis pesanmu (minimal 10 karakter)"></textarea>
+
+            <button type="submit" class="tombol">Kirim Pesan</button>
+            <p id="status-form" class="status-form" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== 10. FOOTER ========== -->
+  <footer class="footer">
+    <div class="kontainer footer-isi">
+      <div>
+        <p class="footer-brand">Muhammad<span> Dimas </span>Aditya</p>
+        <p>Portofolio pribadi mahasiswa Sistem Informasi.</p>
+      </div>
+      <div class="footer-tautan">
+        <a href="#tentang">Tentang</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </div>
+    <p class="footer-hak">&copy; 2026 Muhammad Dimas Aditya. Dibuat untuk tugas praktikum.</p>
+  </footer>
+
+  <button id="back-to-top" aria-label="Kembali ke atas">↑</button>
+
+  <!-- Diletakkan tepat sebelum </body> agar seluruh elemen HTML sudah terbaca -->
+  <script src="script.js"></script>
+</body>
+</html>
